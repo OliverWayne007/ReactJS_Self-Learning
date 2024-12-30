@@ -1,0 +1,31 @@
+In part-2, we fetch the react code into our html file from the CDN to get react into our code.
+
+In order to get react in our code we fetch the following two javascript files from the CDN:
+1. "https://unpkg.com/react@18/umd/react.development.js"
+2. "https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+
+Note that react is nothing but some javascript code written by some really smart developers at facebook/meta.
+
+1. "https://unpkg.com/react@18/umd/react.development.js"
+
+"react" library provides the core functionality of react, such as:
+----> components
+----> State Management
+----> Hooks
+----> Rendering the React virtual DOM
+
+"react" library contains the declarative API for building user interfaces, but it does not include anything related to 
+rendering the components to the actual DOM or platform-specific logic.
+
+"react" library is platform-agnostic.
+
+2. "https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+
+----> "react-dom" library is specifically used for rendering React components to the web  browser's DOM.
+
+----> It bridges the gap between React's virtual DOM and the browser's actual DOM.
+
+----> "react-dom" is only needed when working with the web. For other platforms such as mobile, react-dom is not required.
+----> In case of mobile, React Native is used.
+
+----> Unlike the "react" library which is platform-agnostic, "react-dom" library is platform-specific.

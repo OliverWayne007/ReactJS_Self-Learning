@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <header>
+        <h1> This is the header of the web-page </h1>
+    </header>
+
+    <!-- The React code works only inside the div with id=root and all the other elements remain unaffected. -->
+    <div id="root">
+        <!-- React completely takes control of the div with id=root. -->
+        <!-- Any thing present inside the root element is replaced by the React Code when root.render(element) happens. -->
+        <!-- This is why "Akshay is here !" is not visible on the UI -->
+        Akshay is here !
+    </div>
+
+    <footer>
+        <h1> This is the footer of the web-page </h1>
+    </footer>
+
+    <!-- Injecting React into our project using CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- The following script should always be positioned after the react and react-dom scripts -->
+    <script src="./App.js"></script>
+
+</body>
+</html>

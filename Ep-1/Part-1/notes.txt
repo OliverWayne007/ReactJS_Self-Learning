@@ -1,0 +1,2 @@
+In part-1 we see how to inject html-elements into the div id=root and perform DOM manipulation using DOM APIs i.e.
+(getElementById , createElement , appendChild) provided by the browser using/inside plain old Javascript.
