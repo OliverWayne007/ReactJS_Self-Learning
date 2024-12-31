@@ -1,0 +1,54 @@
+1. Parcel is a bundler.
+
+Question: What is a bundler ?
+
+Ans: 
+
+Examples of bundlers: Parcel, Webpack
+
+Question: What is package.json ?
+
+Ans: 
+
+Question: What is package-lock.json ?
+
+Ans: 
+
+Question: What is npm ?
+
+Ans: 
+
+Question: What is node_modules ?
+
+Ans: 
+
+Question: Why is fetching "react" and "react-dom" from CDN to inject the React library into our code not a preferred way to use React ?
+
+Ans: This because of the following reasons:
+
+1. In order to use react, we would need to make network calls to the CDN which is slower.
+
+2. If we want to change the version of React, we would need to hit a different URL which makes it difficult to manage.
+
+3. If we intall the entire React library which is hosted on npm using "npm install react", then the react code will be 
+   available in the node_modules folder and as a dependency in the package.json file which would make it easier to manage
+   as we would be able to easily update the versions using "npm update" without changing the URL in the src attribute of the
+   script tag in the index.html file.
+
+Question: What does a bundler like Parcel do ?
+
+Ans: It does the following:
+
+1. Creating a Dev Build
+2. Creating a Local Server
+3. HMR -> Hot Module Replacement
+4. File Watching Algorithm - Written in C++
+5. Caching for faster builds
+6. Minification
+7. Bundling
+8. Compression
+9. Consistent Hashing
+10. Code Splitting
+11. Differential Bundling -> to support older browsers
+12. Diagnostic
+13. Tree Shaking
