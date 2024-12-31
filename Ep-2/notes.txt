@@ -52,3 +52,22 @@ Ans: It does the following:
 11. Differential Bundling -> to support older browsers
 12. Diagnostic
 13. Tree Shaking
+
+Question: How to run the project ?
+
+Ans: The project can be executed in the following ways:
+
+1. Without npm scripts (not industry standard)
+
+---> For creating a development build using parcel: "npx parcel index.html"
+---> For creating a production build using parcel: "npx parcel build index.html"
+
+2. By explicitly creating npm scripts in package.json file (industry standard)
+
+---> Note: The name of the script is totally up to the developer. I use the following:
+
+---> For creating a development build using parcel - "dev" : "parcel index.html"
+     ---> To run the "dev" script: "npm run dev"
+
+---> For creating a production build using parcel - "build" : "parcel build index.html"
+     ---> To run the "build" script: "npm run build" 
