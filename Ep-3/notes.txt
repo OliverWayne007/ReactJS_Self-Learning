@@ -1,0 +1,39 @@
+1. The core React code to create the HTML structure to inject into the DOM gets real messy and difficult to manage real soon
+    as the complexity of the structure gets complex. 
+
+2. The readability of the code is also reduced.
+
+3. On the other hand the XML/HTML like structure for creating HTML elements is easy to read and comprehend.
+
+4. This is where JSX comes into picture.
+
+5. JSX stands for Javascript XML.
+
+6. It is important to be noted that JSX is just a syntactic sugar used for making the lives of React developers easier
+   by providing a familiar XML/HTML like syntax for creating React elements.
+
+7. Note that JSX is NOT HTML inside Javascript. It just has a syntax similar to HTML is all.
+   JSX is not the same as Javascript as the JSX syntax is not a valid Javascript syntax.
+
+8. Internally, all the JSX code is converted into core React code that we saw in Ep-1 and Ep-2.
+   This core React code is in turn converted into Javascript code that the browser can understand.
+
+9. JSX -- converted to --> core React elements -- converted to --> Javascript code that browsers understand.
+
+10. The browser which has a javascript engine ( like chrome has V8 ) understands only javscript code.
+
+11. This conversion of JSX syntax to core React elements and core React elements to browser compatible Javascript code 
+    is called transpilation and this transpilation is carried out by a transpiler called Babel.
+
+12. Babel is automatically installed when we install parcel.
+
+13. What is Babel?
+Bowsers don't understand ES6.
+Babel is a JavaScript compiler
+Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
+Babel is a tool that converts newer versions of ECMAScript to ECMAScript5 (ES5). ES5 is the current standard Javascript that is understood by major browsers including IE11. Babel enables developers to use cutting-edge Javascript without worrying about browser support.
+Babel is a JavaScript transpiler, meaning it converts a newer version of ECMAScript, such as ES9, to a standard version (ES5).
+Here are the main things Babel can do for you:
+(1) Transform syntax
+(2) Polyfill features that are missing in your target environment (through a third-party polyfill such as core-js)
+(3) Source code transformations (codemods)
