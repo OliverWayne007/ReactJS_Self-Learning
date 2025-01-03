@@ -30,7 +30,7 @@ Ans: This because of the following reasons:
 
 2. If we want to change the version of React, we would need to hit a different URL which makes it difficult to manage.
 
-3. If we intall the entire React library which is hosted on npm using "npm install react", then the react code will be 
+3. If we install the entire React library which is hosted on npm using "npm install react", then the react code will be 
    available in the node_modules folder and as a dependency in the package.json file which would make it easier to manage
    as we would be able to easily update the versions using "npm update" without changing the URL in the src attribute of the
    script tag in the index.html file.
