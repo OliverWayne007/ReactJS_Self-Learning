@@ -1,0 +1,21 @@
+{
+  "name": "ep-4",
+  "version": "1.0.0",
+  "description": "In this episode, I will be learning about components",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "type": "module",
+  "author": "Oliver Queen",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  }
+}
