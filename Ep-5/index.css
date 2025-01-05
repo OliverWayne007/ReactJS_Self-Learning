@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.logoContainer
+{
+    margin: 10px;
+}
+
+#header
+{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+}
+
+#nav-items-container
+{
+    margin-top: 20px;
+}
+
+#nav-items-container > ul
+{
+    display: flex;
+}
+
+.nav-item
+{
+    margin-right: 30px;
+    list-style: none;
+    font-weight: bold;
+}
+
+#body
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#filter-btn-container
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.top-rated-filter
+{
+    cursor: pointer;
+}
+
+.card
+{
+    width: 200px;
+    margin: 20px;
+}
+
+.card:hover
+{
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-image
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-detail
+{
+    list-style: none;
+    margin-top: 5px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-details-list
+{
+    margin: 0;
+    text-align: center;
+}
+
+.card-details-list > #name
+{
+    font-size:x-large;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-details-list > #cuisines
+{
+    color: rgb(58, 54, 54);
+    font-weight: 700;
+}
+
+#cardContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* margin-bottom: 20px; */
+    padding: 10px
+}
+
+#footer
+{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+}
+
+#footer-items > ul
+{
+    display: flex;
+}
+
+.footer-item
+{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}

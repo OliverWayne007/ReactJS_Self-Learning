@@ -1,0 +1,30 @@
+1. React and other Javascript frameworks/libraries allow developers to make Data-Driven-UI.
+
+2. The aim of these libraries is to make smooth Data-Driven UIs by making the UI work in cohesion/tandem with Data from the
+   backend.
+
+3. In order to achieve the above goal, these libraries/frameworks have the concept of states and state-management.
+
+4. In react, the UI is nothing but a collection or arrangement of smaller, independent and reusable fragments of the UI 
+   called components.
+
+5. It is through these state variables that react knows that a re-rendering of some component of the UI needs to take place.
+
+Question: What are hooks in react ?
+
+Ans: Hooks are utilty functions provided by react out of the box. Hooks allow developers to manage state, side-effects
+     and other features previously exclusive to class components.
+
+6. It is through these changes in the state and the hooks to manage the side-effects or the result/outcome of these changes in the state
+   that the UI truly becomes dynamic and Data-Driven.
+
+7. The state variables and hooks work together to keep the UI in sync with the Data-Layer.
+
+8. The most expensive/time-consuming task that the browser has to deal with in case of a dynamic website is the frequent 
+   DOM-Tree Manipulation.
+
+9. In order to make the website more responsive, React optimizes this process of DOM-Manipulation to a great extent which leads 
+   better user-experience.
+
+10.  In order to optimize DOM-Manipulation, React maintains a Virtual-DOM of its own and performs a process called Re-conciliation.
+
