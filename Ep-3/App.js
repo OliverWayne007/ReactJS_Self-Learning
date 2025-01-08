@@ -87,7 +87,8 @@ console.log('\n');
 const title = <h1 id="title"> This is a React component ! </h1>
 
 // Question: What is a component in React ?
-// Ans: A javascript function that returns some JSX element or in other words some React element is called a component.
+// Ans: A React component is a javascript function that returns some JSX-element or in other words some React-element 
+// is called a component.
 
 // TitleContainer is an example of a Functional-Component.
 const TitleContainer = () => { 
@@ -95,7 +96,7 @@ const TitleContainer = () => {
     <div id="titleContainer"> {title} </div>
 ) };
 
-// Note that component is not a functional component for the reasons mentioned above. It is just a Javascript variable 
+// Note that component below is not a functional-component for the reasons mentioned above. It is just a Javascript variable 
 // containing a Javascript object.
 const component = (
 
