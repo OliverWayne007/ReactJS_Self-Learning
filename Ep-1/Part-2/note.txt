@@ -21,7 +21,7 @@ rendering the components to the actual DOM or platform-specific logic.
 
 2. "https://unpkg.com/react-dom@18/umd/react-dom.development.js"
 
-----> "react-dom" library is specifically used for rendering React components to the web  browser's DOM.
+----> "react-dom" library is specifically used for rendering React components to the web browser's DOM.
 
 ----> It bridges the gap between React's virtual DOM and the browser's actual DOM.
 
@@ -29,3 +29,36 @@ rendering the components to the actual DOM or platform-specific logic.
 ----> In case of mobile, React Native is used.
 
 ----> Unlike the "react" library which is platform-agnostic, "react-dom" library is platform-specific.
+
+
+Question: Who takes care of creating the virtual-DOM and the process of reconciliation ? Is it react or react-dom ?
+
+Ans: 
+
+The process of creating the Virtual DOM and reconciliation is handled by React itself, not react-dom.
+
+Explanation:
+
+React:
+
+React is responsible for creating the Virtual DOM representation of your UI components.
+It manages the process of reconciliation, which is the comparison of the current Virtual DOM with the previous one to determine 
+the minimal set of updates needed to update the real DOM efficiently.
+
+react-dom:
+
+React DOM is a specific renderer that takes the Virtual DOM elements created by React and applies the necessary changes to the 
+real DOM in a browser environment.
+It bridges the gap between React's virtual representation and the browser's actual DOM.
+
+In Summary:
+
+React handles the Virtual DOM creation and reconciliation.
+React DOM applies the resulting updates to the actual DOM.
+For non-DOM environments, React uses different renderers (e.g., react-native for mobile).
+
+
+
+
+
+
