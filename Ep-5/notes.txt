@@ -28,3 +28,14 @@ Ans: Hooks are utilty functions provided by react out of the box. Hooks allow de
 
 10.  In order to optimize DOM-Manipulation, React maintains a Virtual-DOM of its own and performs a process called Re-conciliation.
 
+11. React-Reconciliation is also known as the React algorithm. It is also known as React-Fibre.
+
+12. React does not flush out the entire DOM and create a new DOM from scratch on every re-render, as it is very expensive.
+    Rather, React creates of a Javascript object that represents the Actual-DOM, called as Virtual-DOM, on every re-render.
+    This new Virtual-DOM is then compared with the previous Virtual-DOM to find out the differences between the previous and the
+    current Virtual-DOM. React uses a "Diffing" algorithm to compare the previous and the current Virtual-DOMs and find out the 
+    most optimized way to modify the Actual-DOM such that the number of Actual-DOM manipulations are minimal.
+    This entire process is known as React-Reconciliation.
+
+13. React is fast because it does efficient DOM manipulation through React-Reconciliation which includes the React-Fiber algorithm,
+    Virtual-DOM and Diffing.
