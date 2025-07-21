@@ -18,4 +18,4 @@ const CardContainer = (props) => {
     );
 }
 
-export default CardContainer
+export default CardContainer;
