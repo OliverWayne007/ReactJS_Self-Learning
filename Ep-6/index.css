@@ -1,0 +1,254 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.logo
+{
+    width: 50px;
+    height: 50px;
+}
+
+.logoContainer
+{
+    margin: 10px;
+}
+
+#header
+{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    background-color: blanchedalmond;
+    align-items: center;
+}
+
+.search-bar-container
+{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #f1f1f1;
+    transition: background 0.25s;
+}
+
+.search-bar-container:focus-within
+{
+    background-color: rgb(221, 218, 218);
+}
+
+.search-bar
+{
+    border-radius: 5px;
+    height: 30px;
+    width: 500px;
+    border: none;
+    font-family:'Lexend', sans-serif;
+    font-size: 16px;
+    margin-left: 15px;
+    outline: none;
+    background: transparent;
+}
+
+.search-bar::placeholder , .search-icon
+{
+    color: rgba(0 , 0 , 0 , 0.5);
+}
+
+#nav-items-container
+{
+    margin: 10px;
+    display: flex;
+}
+
+.nav-item
+{
+    padding: 10px;
+    margin-right: 30px;
+    font-weight: bold;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item:hover
+{
+    background-color: white;
+    cursor: pointer;
+}
+
+#body
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(217, 192, 159);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#filter-container
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.filter-image-container
+{
+    display: flex;
+    align-items: center;
+    font-weight:500;
+    margin-right: 20px;
+}
+
+.filter-image-container-active
+{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-weight:500;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.top-rated-filter-btn
+{
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
+
+.top-rated-filter-btn:hover
+{
+    background-color: greenyellow;
+}
+
+.top-rated-filter-btn-active
+{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: darkgreen;
+}
+
+.top-rated-filter-btn-active > #top-rated-restaurants-filter
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.card
+{
+    width: 200px;
+    margin: 20px;
+}
+
+.card:hover
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-image
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-detail
+{
+    list-style: none;
+    margin-top: 5px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-details-list
+{
+    margin: 0;
+    text-align: center;
+}
+
+.card-details-list > #name
+{
+    font-size:x-large;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-details-list > #cuisines
+{
+    color: rgb(58, 54, 54);
+    font-weight: 700;
+}
+
+#cardContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* margin-bottom: 20px; */
+    padding: 10px
+}
+
+#footer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+
+#footer-items > ul
+{
+    display: flex;
+}
+
+.footer-item
+{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.ratingContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.starImage
+{
+    height: 15px;
+    width: 15px;
+}
+
+#filterIcon
+{
+    height: 30px;
+    width: 30px;
+}
+
+#checkIcon
+{
+    height: 20px;
+    width: 20px;
+}

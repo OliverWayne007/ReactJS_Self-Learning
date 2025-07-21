@@ -1,0 +1,17 @@
+Question: When are the useEffect-Hooks executed ?
+
+Ans: The callback functions in useEffect hooks are executed after the DOM update and rendering phase is completed. 
+     This ensures that React has fully updated the DOM before running the useEffect hooks.
+
+
+Question: What is the order of execution of the callback functions present in different useEffect-Hooks in the code ?
+    
+Ans: Order of Execution of useEffect Callbacks:
+
+Render Phase:
+The component is rendered, and console.log("App component is rendered..."); is executed.
+
+Commit Phase (after rendering):
+The useEffect callbacks are executed in the order they are defined in the code. This means that the callback functions of
+the different useEffect-Hooks present in the code are executed in the same order in which the useEffect-Hooks are defined
+in the code. This order remains the same on every re-render of the component.
